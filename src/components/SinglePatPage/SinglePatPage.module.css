@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.button {
+  display: block;
+  align-self: flex-start;
+  width: 100px;
+  height: 50px;
+  outline: none;
+  background: gray;
+  border: none;
+  font-size: 25px;
+  margin-bottom: 30px;
+  /* justify-self: flex-start; */
+}
+.button:hover {
+  background: rgb(230, 181, 181);
+}
+.div {
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.picturediv {
+  display: flex;
+  flex-direction: column;
+}
+.picture {
+  width: 400px;
+}

@@ -1,0 +1,13 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+  flex-direction: column;
+  /* max-width: 90%; */
+}
